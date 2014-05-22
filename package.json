@@ -1,0 +1,25 @@
+{
+  "name": "modal",
+  "version": "0.0.0",
+  "description": "A simple modal UI component",
+  "repository": "KenanY/modal",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "lib/index.js",
+  "style": "lib/index.css",
+  "dependencies": {
+    "brfs": "^1.1.1",
+    "classes": "KenanY/classes",
+    "component-emitter": "^1.1.2",
+    "domify": "^1.2.2",
+    "on-escape": "^1.0.0",
+    "overlay": "KenanY/overlay",
+    "showable": "KenanY/segmentio-showable"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "private": true
+}
